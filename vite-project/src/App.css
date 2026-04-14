@@ -1,0 +1,27 @@
+.js-job-header{
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  align-items: center;
+  margin-top: 10%;
+}
+.js-options{
+  display: flex;
+  flex-direction: row;
+  column-gap: 50px;
+}
+.js-head{
+  border: 1px #24b6cd  solid;
+  background-color: #24b6cd;
+  padding: 3px 15px 3px 15px;
+  border-radius: 5px;
+  box-shadow: 3px 3px #e6dddd;
+}
+.js-option-items{
+  border: 1px #00ba00 solid;
+  background-color: #00ba00;
+  padding: 5px 20px 5px 20px;
+  border-radius: 5px;
+  box-shadow: 3px 3px #e6dddd;
+  cursor: pointer;
+}

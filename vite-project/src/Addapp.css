@@ -1,0 +1,32 @@
+.js-form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+}
+.js-form-el{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+
+}
+.label-css{
+    width: 120px;
+    text-align: right;
+}
+.submit-btn{
+    border: 1px #00ba00 solid;
+  background-color: green;
+  padding: 5px 20px 5px 20px;
+  border-radius: 5px;
+  box-shadow: 3px 3px #e6dddd;
+  cursor: pointer;
+}
+.required-star{
+    color: red;
+}
+.err-msg{
+    display: none;
+    color:red;
+    font-size:0.9rem;
+}

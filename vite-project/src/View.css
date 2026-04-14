@@ -1,0 +1,44 @@
+table{
+    /* width:95%;
+    margin: 20px auto; */
+    border-collapse: separate;
+    border-spacing: 60px 10px;
+}
+td, th {
+  padding: 12px;
+  text-align: center;
+  background-color: aliceblue;
+  border-radius: 20px;
+}
+.js-edit{
+    background-color: #0dca0d;
+    padding: 1px 5px 1px 5px;
+    border-radius: 5px;
+    color: black;
+    margin-right:4px ;
+    cursor: pointer;
+}
+.js-delete{
+    background-color: #ff2d2d;
+    padding: 1px 5px 1px 5px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.sort-btn{
+    border: none;
+    cursor: pointer;
+}
+.js-add-btn{
+  border: 1px #00ba00 solid;
+  background-color: #00ba00;
+  padding: 5px 20px 5px 20px;
+  border-radius: 5px;
+  box-shadow: 3px 3px #e6dddd;
+  cursor: pointer;
+}
+.btn-div{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+}
