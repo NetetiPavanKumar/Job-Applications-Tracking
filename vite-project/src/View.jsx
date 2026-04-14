@@ -56,6 +56,9 @@ async function sortByStatus(storder){
         <>
         <div className="btn-div">
             <button onClick={()=>{
+                nav("/")
+            }} className="js-add-btn">Home</button>
+            <button onClick={()=>{
                             nav("/add")
             }} className="js-add-btn">Add Application</button>
         </div>
@@ -89,7 +92,6 @@ async function sortByStatus(storder){
                 <tbody>
                 {apps.map((app)=>{
                     return(
-                        <>
                         <tr key={app.id} className="table-row">
                             <td>{app.id}<br /><button className="js-edit" onClick={(event)=>{
                                 nav(`/update/${app.id}`)
@@ -111,7 +113,6 @@ async function sortByStatus(storder){
                                 </select></td>
                             <td>{new Date(app.date).toLocaleDateString()}</td>
                         </tr>
-                    </>
                     )
                 })}
                 </tbody>

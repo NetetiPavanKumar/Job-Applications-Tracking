@@ -41,4 +41,5 @@ td, th {
     display: flex;
     justify-content: flex-end;
     margin-right: 60px;
+    column-gap: 5px;
 }
